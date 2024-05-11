@@ -19,7 +19,7 @@ const iconVariants =(duration)=>({
 const Skills = () => {
     return (
         <>
-            <div className='border-b border-neutral-900 pb-24'>
+            <section id='skills' className='border-b border-neutral-900 pb-24'>
                 <motion.h2 
                 whileInView={{opacity:1,y:0}}
                 initial={{opacity:0,y:-100}}
@@ -73,7 +73,7 @@ const Skills = () => {
                         <SiMysql className='text-7xl text-cyan-400' />
                     </motion.div>
                 </motion.div>
-            </div>
+            </section>
         </>
     )
 }

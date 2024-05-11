@@ -27,6 +27,9 @@ const Contact = () => {
                     transition={{duration:1}}
                     className="my-4">{CONTACT.email}</motion.p>
                 </div>
+                <div className="text-start tracking-tighter  border-neutral-200 pt-4">
+                    <p className='text-neutral-300'>Developed by <span>Derkaoui Yassir</span></p>
+                </div>
             </div>
         </>
     )

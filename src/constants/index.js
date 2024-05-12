@@ -12,9 +12,9 @@ import {
   FaUser,
 } from "react-icons/fa6";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, Laravel, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `In a remarkable journey spanning just one year, Yassir has evolved from a coding novice to a passionate junior developer deeply immersed in the intricate world of full-stack development. With an insatiable curiosity and relentless drive, he has embraced every challenge, mastering both front-end technologies like HTML, CSS, and JavaScript, as well as back-end technologies such as Laravel and MongoDB. Yassir's enthusiasm for exploring the latest frameworks like React and NextJS, and languages like Python, shines through in the innovative solutions he crafts for complex problems. His commitment to continuous learning and unwavering dedication make him a rising star in the vibrant realm of software development.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `In the span of just one year, Yassir has undergone a remarkable transformation from a fledgling coder to a passionate junior developer deeply immersed in the world of full-stack development. His journey commenced with the basics of programming, gradually evolving into a profound understanding of both front-end and back-end technologies. Fuelled by an insatiable curiosity and a relentless drive to excel, Yassir tackles each project with fervor, eagerly absorbing new concepts and techniques along the way. His enthusiasm for exploring the latest frameworks and languages is palpable, evident in the innovative solutions he crafts for every challenge he encounters. With a yearning to learn and a commitment to pushing boundaries, Yassir stands as a promising talent in the ever-evolving landscape of software development.`;
 
 export const EXPERIENCES = [
   {
@@ -43,7 +43,7 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Ibm",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    technologies: ["NextJS", "Rails", "PHP", "Sqlite"],
   },
 ];
 
@@ -53,14 +53,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "MySql"],
+    technologies: ["HTML", "CSS", "WordPress", "PHP"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "React", "Firebase"],
   },
   {
     title: "Portfolio Website",

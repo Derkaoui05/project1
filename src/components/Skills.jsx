@@ -24,7 +24,7 @@ const Skills = () => {
                 whileInView={{opacity:1,y:0}}
                 initial={{opacity:0,y:-100}}
                 transition={{duration:1.5}}
-                className='my-20 text-center text-4xl'>My <span className="text-neutral-500">Skills</span></motion.h2>
+                className='my-20 text-center text-neutral-500 text-4xl'>Skills</motion.h2>
                 <motion.div
                 whileInView={{opacity:1,x:0}}
                 initial={{opacity:0,x:-100}}

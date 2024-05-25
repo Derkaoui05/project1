@@ -13,7 +13,7 @@ const Cursor = () => {
         gsap.to(followerRef.current,{
             x:e.clientX,
             y:e.clientY,
-            duration: 0.9,
+            duration: 0.6,
         });
     };
     useEffect(()=>{

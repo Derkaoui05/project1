@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logoo.png'
 const Navbar = () => {
   return (
     <>
-        <nav id='home' className="mb-20 flex items-center justify-between py-6">
+        <nav id='home' className="mb-20 flex items-center  justify-between py-6">
             <div className="flex flex-shrink-0 items-center">
-                <img src={logo} className='mx-2 w-10' alt="" />
+                <img src={logo} className='mx-2 w-24 h-24' alt="" />
             </div>
         </nav>
     </>

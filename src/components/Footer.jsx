@@ -6,7 +6,7 @@ import { FaLinkedin } from 'react-icons/fa'
 const Footer = () => {
     return (
         <>
-            <div className="border-b border-neutral-900 pb-5">
+            <div id='contact' className="border-b border-neutral-900 pb-5">
                 <div className="h-full flex flex-col  gap-8 items-center justify-between p-10 sm:p-7">
                     <motion.h2 whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: -100 }}

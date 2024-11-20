@@ -8,8 +8,8 @@ const About = () => {
         <>
             <section id='about' className="border-b border-neutral-900 pb-4">
                 <motion.h2 
+                  initial={{opacity:0,y:100}}
                   whileInView={{opacity:1,y:0}}
-                  initial={{opacity:0,y:-100}}
                   transition={{duration:1.5}}
                 className='my-20 text-center text-neutral-500 text-4xl'>About Me</motion.h2>
                 <div className="flex flex-wrap">

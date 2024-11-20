@@ -5,41 +5,11 @@ import logo from '../assets/logo.png'
 const Contact = () => {
 	return (
 		<>
-			{/* <footer id='contact' className='border-b border-neutral-900 pb-20'>
-                <motion.h2
-                whileInView={{opacity:1,y:0}}
-                initial={{opacity:0,y:-100}}
-                transition={{duration:0.5}}
-                className='my-10 text-center text-4xl'>Get in Touch</motion.h2>
-                <div className="text-center tracking-tighter">
-                    <motion.p 
-                    whileInView={{opacity:1,x:0}}
-                    initial={{opacity:0,x:100}}
-                    transition={{duration:1}}
-                    className="my-4">{CONTACT.address}</motion.p>
-                    <motion.p 
-                    whileInView={{opacity:1,x:0}}
-                    initial={{opacity:0,x:-100}}
-                    transition={{duration:1}}
-                    className="my-4">{CONTACT.phoneNo}</motion.p>
-                    <motion.p 
-                    whileInView={{opacity:1,x:0}}
-                    initial={{opacity:0,x:100}}
-                    transition={{duration:1}}
-                    className="my-4">{CONTACT.email}</motion.p>
-                </div>
-                <div className="text-start tracking-tighter  border-neutral-200 pt-4">
-                    <p className='text-neutral-300'>Developed by <span>Derkaoui Yassir</span></p>
-                </div>
-            </footer> */}
 			<footer id='contact' className='border-b border-neutral-900 divide-y pb-20'>
 				<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 					<div className="lg:w-1/3">
 						<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
 							<div className="flex items-center justify-center w-20 h-20 rounded-full bg-purple-800">
-								{/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="flex-shrink-0 w-5 h-5 rounded-full dark:text-gray-50">
-									<path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
-								</svg> */}
 								<img src={logo} alt="img-logo" className='w-12 h-12' />
 							</div>
 							<span className="self-center text-2xl font-semibold">YSR Tech</span>

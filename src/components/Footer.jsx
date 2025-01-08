@@ -17,7 +17,7 @@ const Footer = () => {
                         whileInView={{opacity:1,x:0}}
                         initial={{opacity:0,x:-100}}
                         transition={{duration:.5}}
-                            href="https://www.linkedin.com/in/derkaoui-yassir-497b5a298/"
+                            href="https://www.linkedin.com/in/derkaoui-yassir/"
                             className="box font-medium text-white flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
                             <FaLinkedin className=" text-white text-3xl hover:scale-125 cursor-pointer" />

@@ -48,7 +48,7 @@ export const PROJECTS = [
         status: "complete"
     },
     {
-        title: "Syndic platform",
+        title: "Syndic platform (in progress)",
         image: syndic,
         description:
             "A syndic platform is a digital tool that streamlines property management by enhancing communication, " +
@@ -56,13 +56,13 @@ export const PROJECTS = [
         technologies: ["React", "Next.js", "Tailwindcss", "Framer-motion", "Shadcn Ui", "Laravel", "MySql"],
         status: "progress"
     },
-    {
-        title: "E-Commerce Website",
-        image: project3,
-        description:
-            "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-        technologies: ["HTML", "CSS", "WordPress", "PHP"],
-    },
+    // {
+    //     title: "E-Commerce Website",
+    //     image: project3,
+    //     description:
+    //         "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    //     technologies: ["HTML", "CSS", "WordPress", "PHP"],
+    // },
 ];
 
 export const CONTACT = {

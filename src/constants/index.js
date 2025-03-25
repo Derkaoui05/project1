@@ -10,9 +10,9 @@ import {
     FaUser,
 } from "react-icons/fa6";
 
-export const HERO_CONTENT = `In an impressive journey spanning just one month, Yassir has transformed from a coding novice to a passionate aspiring developer, eagerly diving into the fascinating world of full-stack development. With an insatiable curiosity and relentless drive, he has tackled each challenge head-on, gaining foundational skills in front-end technologies like HTML, CSS, and JavaScript, as well as back-end technologies such as Laravel. Yassir's enthusiasm for exploring emerging library like React and framework like Next.js is evident in the innovative solutions he begins to craft for various problems. His commitment to continuous learning and unwavering dedication mark the early signs of a promising career in the vibrant realm of software development.`;
+export const HERO_CONTENT = `In an inspiring journey fueled by passion and determination, Yassir has evolved into a skilled full-stack developer, mastering modern technologies across web and software development. With a strong foundation in front-end frameworks like React and Next.js, coupled with expertise in back-end solutions using Laravel and ASP.NET, he crafts efficient and scalable applications. His insatiable curiosity drives him to explore emerging tools, refine his problem-solving skills, and push the boundaries of innovation. Whether building dynamic platforms, optimizing databases, or architecting robust systems, Yassir's commitment to continuous growth and excellence paves the way for a promising career in the ever-evolving tech landscape.`;
 
-export const ABOUT_TEXT = `In the span of just one month, Yassir has undergone a remarkable transformation from a fledgling coder to an enthusiastic aspiring developer, deeply immersed in the world of full-stack development. His journey commenced with the basics of programming, quickly evolving into a growing understanding of both front-end and back-end technologies. Fueled by an insatiable curiosity and a relentless drive to excel, Yassir tackles each project with fervor, eagerly absorbing new concepts and techniques along the way. His enthusiasm for exploring the latest frameworks and languages is palpable, evident in the innovative solutions he begins to craft for every challenge he encounters. With a yearning to learn and a commitment to pushing boundaries, Yassir stands as a promising talent in the ever-evolving landscape of software development.`;
+export const ABOUT_TEXT = `Over the course of my journey, I have evolved into a passionate full-stack developer, constantly expanding my knowledge and skills in both front-end and back-end technologies. From mastering foundational tools like HTML, CSS, and JavaScript to exploring powerful frameworks such as React, Next.js, Laravel, and ASP.NET, I've embraced every challenge with enthusiasm. My drive to innovate and solve complex problems fuels my ongoing growth, and I'm always eager to dive into new technologies and refine my craft. Committed to continuous learning, I am excited to make my mark in the dynamic world of software development.`;
 
 export const EXPERIENCES = [
     {
@@ -60,7 +60,7 @@ export const PROJECTS = [
         description:
             "A syndic platform is a digital tool that streamlines property management by enhancing communication, " +
             "financial tracking, issue reporting, and decision-making for managers and residents.",
-        technologies: ["React", "Next.js", "Tailwindcss", "Framer-motion", "Shadcn Ui", "Laravel", "MySql"],
+        technologies: ["Next.js", "Tailwindcss", "Framer-motion", "Shadcn", "Laravel", "MySql"],
         status: "progress"
     },
 ];

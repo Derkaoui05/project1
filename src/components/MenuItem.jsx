@@ -18,7 +18,7 @@ const MenuItem = ({ menu, index }) => {
                         animate={{opacity:1,x:0}}
                         exit={{opacity:0,x:-25}}
                         transition={{duration:0.5}}
-                        className='absolute bg-white rounded-md px-6 py-2 -left-[120px]  ' style={{boxShadow: "inset 0px 0px 10px rgba(0,0,0,0.4)"}}>
+                        className='absolute md:hidden bg-white rounded-md px-6 py-2 -left-[120px]  ' style={{boxShadow: "inset 0px 0px 10px rgba(0,0,0,0.4)"}}>
                         <p className='text-[#020010] after:absolute after:-right-1 after:top-3 after:w-2 after:h-2 after:bg-white after:rotate-45'>
                             {menu?.name}
                         </p>

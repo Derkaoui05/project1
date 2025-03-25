@@ -16,11 +16,18 @@ export const ABOUT_TEXT = `In the span of just one month, Yassir has undergone a
 
 export const EXPERIENCES = [
     {
-        year: "Aout 2024 - Octobre 2024",
+        year:"Fevrier 2025 - Present",
+        role:".NET Developer",
+        company:"Electrical Components International",
+        description:"Develop and maintain a platform of Employees request management with an intuitive dashboard for each employees and depends of roles",
+        technologies:["ASP.NET Core", "React.js","TailwindCSS","Sql Server"]
+    },
+    {
+        year: "Aout - Octobre 2024",
         role:"Web Developer",
         company: "Maya Digital",
-        description: "Developer and maintain a responsive sections of shelter project.",
-        technologies: ["React","Tailwindcss","React-table","axios"]
+        description: "Develop and maintain a responsive sections of shelter project.",
+        technologies: ["React","TailwindCSS","React-table","axios"]
     },
     {
         year: "MAY 2024 ",

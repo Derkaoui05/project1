@@ -13,10 +13,10 @@ const Footer = () => {
                         transition={{ duration: .5 }}
                         className=' text-center text-4xl text-neutral-500'>Let's Talk</motion.h2>
                     <div className=" flex items-center justify-center gap-8 sm:gap-5">
-                        <motion.a 
-                        whileInView={{opacity:1,x:0}}
-                        initial={{opacity:0,x:-100}}
-                        transition={{duration:.5}}
+                        <motion.a
+                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, x: -100 }}
+                            transition={{ duration: .5 }}
                             href="https://www.linkedin.com/in/derkaoui-yassir/"
                             className="box font-medium text-white flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
@@ -24,9 +24,9 @@ const Footer = () => {
                             <p>Linkedin</p>
                         </motion.a>
                         <motion.a
-                           whileInView={{opacity:1,x:0}}
-                           initial={{opacity:0,x:-100}}
-                           transition={{duration:1}}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, x: -100 }}
+                            transition={{ duration: 1 }}
                             href="https://github.com/Derkaoui05"
                             className="box font-medium text-white  flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
@@ -34,9 +34,9 @@ const Footer = () => {
                             <p>Github</p>
                         </motion.a>
                         <motion.a
-                           whileInView={{opacity:1,x:0}}
-                           initial={{opacity:0,x:-100}}
-                           transition={{duration:1}}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, x: -100 }}
+                            transition={{ duration: 1 }}
                             href="https://www.instagram.com/d.ysr777"
                             className="box font-medium text-white  flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
@@ -44,12 +44,12 @@ const Footer = () => {
                             <p>Instagram</p>
                         </motion.a>
                     </div>
-                    <motion.div 
-                       whileInView={{opacity:1,x:0}}
-                       initial={{opacity:0,x:100}}
-                       transition={{duration:1}}
-                    className="sm:text-[12px] text-3xl">
-                        | Developed By <span className='text-purple-500  duration-200 hover:border-b hover:border-purple-800 hover:cursor-pointer transition-colors hover:text-purple-800'> Derkaoui Yassir </span>
+                    <motion.div
+                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, x: 100 }}
+                        transition={{ duration: 1 }}
+                        className="sm:text-[12px] text-3xl">
+                        | Developed By <span className='text-[#1593E6]  duration-500 hover:border-b hover:border-[#1593E6] hover:cursor-pointer transition-colors'> Derkaoui Yassir </span>
                         <a href="#"></a> |
                     </motion.div>
                 </div>

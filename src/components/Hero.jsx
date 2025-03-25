@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
-import profile from '../assets/about.png'
+import profile from '../assets/profile.png'
 import { motion } from 'framer-motion'
 
 const container = (delay) => ({
@@ -28,7 +28,7 @@ const Hero = () => {
                                 variants={container(0.5)}
                                 initial="hidden"
                                 animate="visible"
-                                className="bg-gradient-to-r text-transparent from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight">
+                                className="bg-gradient-to-r text-transparent from-[#0B598D] to-[#1593E6] bg-clip-text text-4xl tracking-tight">
                                 Full Stack Developer
                             </motion.span>
                             <motion.p
@@ -46,7 +46,7 @@ const Hero = () => {
                                 initial={{ x: 100, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
                                 transition={{duration:1,delay:1}}
-                                src={profile} alt="profile-picture" className='rounded-2xl' />
+                                src={profile} alt="profile-picture" className='rounded-2xl object-cover aspect-square' />
                         </div>
                     </div>
                 </div>

@@ -46,8 +46,12 @@ const Hero = () => {
                                 initial={{ x: 100, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
                                 transition={{duration:1,delay:1}}
-                                src={profile} alt="profile-picture" className='rounded-2xl object-cover aspect-square' />
-                            <div className="absolute inset-0 bg-black/30"></div>
+                                src={profile} alt="profile-picture" className='rounded-2xl  object-cover aspect-square' />
+                            <motion.div 
+                             initial={{ x: 100, opacity: 0 }}
+                             animate={{ x: 0, opacity: 1 }}
+                             transition={{duration:1,delay:1}}
+                            className="absolute inset-0 bg-black/30"></motion.div>
                         </div>
                     </div>
                 </div>

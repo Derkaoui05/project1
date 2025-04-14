@@ -51,11 +51,19 @@ export const PROJECTS = [
         image: project1,
         description:
             "A personal portfolio website showcasing projects, skills, and contact information.",
-        technologies: ["HTML", "CSS", "React", "TailwindCss", "Framer-motion"],
+        technologies: [ "React", "TailwindCSS", "Framer-motion"],
         status: "complete"
     },
     {
-        title: "Syndic platform (in progress)",
+        title:"Digital Martketing Agency - Spark Studio",
+        image: project1,
+        description:"Spark Studio is an innovative digital agency specializing in the creation of high-performance and visually appealing websites. Our goal is to support businesses by providing optimized digital solutions to maximize their online impact.",
+        technologies: ["Next.js","TailwindCSS","Typescript","ShadCN","Framer-motion","Gsap"],
+        status:"complete"
+
+    },
+    {
+        title: "Syndic platform (soon)",
         image: syndic,
         description:
             "A syndic platform is a digital tool that streamlines property management by enhancing communication, " +
@@ -103,3 +111,24 @@ export const Menus = [
         name: "Contact",
     },
 ];
+
+export const EDUCATION = [
+    {
+        year:'2024-2025',
+        speciality:'Computer engineering',
+        diploma:'Professional License',
+        school:'ENSA Tangier',
+    },
+    {
+        year:'2022-2024',
+        speciality:'Information Technologie',
+        diploma:'Diploma of specialize technician',
+        school:'IFIAG Casablanca',
+    },
+    {
+        year:'2021-2022',
+        speciality:'Physics Science',
+        diploma:'Baccaleaureat',
+        school:'Ocean Atlantic',
+    }
+]

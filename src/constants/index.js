@@ -10,13 +10,13 @@ import {
     FaUser,
 } from "react-icons/fa6";
 
-export const HERO_CONTENT = `In an inspiring journey fueled by passion and determination, Yassir has evolved into a skilled full-stack developer, mastering modern technologies across web and software development. With a strong foundation in front-end frameworks like React and Next.js, coupled with expertise in back-end solutions using Laravel and ASP.NET, he crafts efficient and scalable applications. His insatiable curiosity drives him to explore emerging tools, refine his problem-solving skills, and push the boundaries of innovation. Whether building dynamic platforms, optimizing databases, or architecting robust systems, Yassir's commitment to continuous growth and excellence paves the way for a promising career in the ever-evolving tech landscape.`;
+export const HERO_CONTENT = `Fueled by passion and determination, Yassir has grown into a skilled full-stack developer, mastering modern technologies in both web and software development. With a solid foundation in front-end frameworks like React and Next.js, and back-end expertise in Laravel and Jakarta EE, he builds efficient, scalable, and high-performing applications. His curiosity drives him to explore new tools, enhance his problem-solving skills, and push the limits of innovation. From developing dynamic platforms to optimizing databases and designing robust systems, Yassir's dedication to continuous learning and excellence shapes a promising path in today's fast-paced tech world.`;
 
-export const ABOUT_TEXT = `Over the course of my journey, I have evolved into a passionate full-stack developer, constantly expanding my knowledge and skills in both front-end and back-end technologies. From mastering foundational tools like HTML, CSS, and JavaScript to exploring powerful frameworks such as React, Next.js, Laravel, and ASP.NET, I've embraced every challenge with enthusiasm. My drive to innovate and solve complex problems fuels my ongoing growth, and I'm always eager to dive into new technologies and refine my craft. Committed to continuous learning, I am excited to make my mark in the dynamic world of software development.`;
+export const ABOUT_TEXT = `I'm Yassir, a full-stack developer who finds joy in turning ideas into clean, functional code. What started with simple lines of HTML and CSS quickly grew into a real passion for building web applications using technologies like React, Next.js, Laravel, and Jakarta EE. I thrive in the flow of coding—solving problems, architecting systems, and creating seamless user experiences. Whether it's front-end polish or back-end logic, I love every step of the process. I'm always exploring new tools, leveling up my skills, and staying curious. For me, coding isn't just a job—it's a vibe, and I'm here to build, learn, and grow with every line.`;
 
 export const EXPERIENCES = [
     {
-        year:"February 2025 - April",
+        year:"February - April 2025",
         role:".NET Developer",
         company:"Electrical Components International",
         description:"Develop and maintain a platform of Employees request management with an intuitive dashboard for each employees and depends of roles",

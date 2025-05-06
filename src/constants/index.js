@@ -1,6 +1,4 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import syndic from "../assets/projects/syndic.webp";
 
 import {
     FaDiagramProject,
@@ -63,18 +61,17 @@ export const PROJECTS = [
 
     },
     {
-        title: "Syndic platform (soon)",
-        image: syndic,
+        title: "Barber SHop (soon)",
+        image: project1,
         description:
-            "A syndic platform is a digital tool that streamlines property management by enhancing communication, " +
-            "financial tracking, issue reporting, and decision-making for managers and residents.",
-        technologies: ["Next.js", "Tailwindcss", "Framer-motion", "Shadcn", "Laravel", "MySql"],
+            "Developed a fully responsive and user-friendly website for a barber shop to showcase services, manage bookings, and build a professional online presence. Designed with a focus on performance, accessibility, and a clean user interface to ensure a smooth experience across all devices.",
+        technologies: ["Next.js", "Tailwindcss", "Shadcn","Supabase","React Hook Form"],
         status: "progress"
     },
 ];
 
 export const CONTACT = {
-    address: "EL Qods, EL Bernoussi, Casablanca ",
+    address: "Tangier",
     phoneNo: "+212 674494786 ",
     email: "derkaouidev@gmail.com",
 };

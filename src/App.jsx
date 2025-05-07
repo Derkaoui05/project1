@@ -5,6 +5,7 @@ import Experience from "./components/Experience"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Menu from "./components/Menu"
+import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 
@@ -18,7 +19,7 @@ const App = () => {
         </div>
         <div className="container mx-auto px-8">
           <Menu />
-          {/* <Navbar /> */}
+          <Navbar />
           <Hero />
           <About />
           <Skills />

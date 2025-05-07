@@ -14,13 +14,6 @@ export const ABOUT_TEXT = `I'm Yassir, a full-stack developer who finds joy in t
 
 export const EXPERIENCES = [
     {
-        year:"February - April 2025",
-        role:".NET Developer",
-        company:"Electrical Components International",
-        description:"Develop and maintain a platform of Employees request management with an intuitive dashboard for each employees and depends of roles",
-        technologies:["ASP.NET Core", "React.js","TailwindCSS","Sql Server"]
-    },
-    {
         year: "August - October 2024",
         role:"Web Developer",
         company: "Maya Digital",

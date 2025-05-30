@@ -38,14 +38,6 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
-        title: "Portfolio Website",
-        image: project1,
-        description:
-            "A personal portfolio website showcasing projects, skills, and contact information.",
-        technologies: [ "React", "TailwindCSS", "Framer-motion"],
-        status: "complete"
-    },
-    {
         title:"Digital Martketing Agency - Spark Studio",
         image: project1,
         description:"Spark Studio is an innovative digital agency specializing in the creation of high-performance and visually appealing websites. Our goal is to support businesses by providing optimized digital solutions to maximize their online impact.",
@@ -54,7 +46,7 @@ export const PROJECTS = [
 
     },
     {
-        title: "Barber SHop (soon)",
+        title: "Barber SHop",
         image: project1,
         description:
             "Developed a fully responsive and user-friendly website for a barber shop to showcase services, manage bookings, and build a professional online presence. Designed with a focus on performance, accessibility, and a clean user interface to ensure a smooth experience across all devices.",

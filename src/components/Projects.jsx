@@ -1,6 +1,7 @@
 import React from 'react'
 import { PROJECTS } from '../constants'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 const Projects = () => {
     return (
         <>
@@ -28,6 +29,7 @@ const Projects = () => {
                                             </span>
                                         ))
                                     }
+                                    <Link to={project.url}>View Project</Link>
                                 </motion.div>
                             </div>
                         ))

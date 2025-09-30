@@ -1,4 +1,6 @@
-import project1 from '../assets/projects/project-1.jpg';
+import project1 from '../assets/projects/healtcare.png';
+import project2 from '../assets/projects/spark.jpeg';
+import project3 from '../assets/projects/barber.png';
 
 import { FaDiagramProject, FaEnvelope, FaHouse, FaRenren, FaUser } from 'react-icons/fa6';
 
@@ -50,7 +52,7 @@ export const PROJECTS = [
   },
   {
     title: 'Digital Martketing Agency - Spark Studio',
-    image: project1,
+    image: project2,
     url: 'https://sparkstudio.vercel.app',
     description:
       'Spark Studio is an innovative digital agency specializing in the creation of high-performance and visually appealing websites. Our goal is to support businesses by providing optimized digital solutions to maximize their online impact.',
@@ -59,7 +61,7 @@ export const PROJECTS = [
   },
   {
     title: 'Barber SHop',
-    image: project1,
+    image: project3,
     url: 'https://sharplook.vercel.app',
     description:
       'Developed a fully responsive and user-friendly website for a barber shop to showcase services, manage bookings, and build a professional online presence. Designed with a focus on performance, accessibility, and a clean user interface to ensure a smooth experience across all devices.',

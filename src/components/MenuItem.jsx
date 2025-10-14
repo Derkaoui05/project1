@@ -1,11 +1,12 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const MenuItem = ({ menu, index }) => {
     const [isHover,setIsHover] = useState(false)
     return (
         <>
-            <a href={menu.uri} className='w-10 h-10 rounded-full flex items-center justify-center group cursor-pointer hover:bg-gradient-to-br 
+            <Link to={menu.uri} className='w-10 h-10 rounded-full flex items-center justify-center group cursor-pointer hover:bg-gradient-to-br 
             hover:from-blue-100 hover:via-blue-300 hover:to-blue-500 relative'
             onMouseEnter={()=>setIsHover(true)} aria-description='' onMouseLeave={()=>setIsHover(false)}
             >
@@ -26,7 +27,7 @@ const MenuItem = ({ menu, index }) => {
                     )
                 }
                </AnimatePresence>
-            </a>
+            </Link>
 
         </>
     )

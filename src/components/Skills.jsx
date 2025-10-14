@@ -6,7 +6,7 @@ import {
     RiTailwindCssLine,
     RiWordpressLine
 } from 'react-icons/ri'
-import {SiLaravel, SiMysql, SiShadcnui, SiTypescript} from 'react-icons/si'
+import {SiLaravel, SiMysql, SiShadcnui, SiSpring, SiTypescript} from 'react-icons/si'
 import {motion} from 'framer-motion'
 
 const iconVariants = (duration, delay, amplitude) => ({
@@ -53,7 +53,7 @@ const Skills = () => {
                     { Icon: SiTypescript, duration: 2.4, delay: 0.4, amplitude: 20 },
                     { Icon: RiJavaLine, duration: 2.6, delay: 0.6, amplitude: 14 },
                     { Icon: RiWordpressLine, duration: 2.8, delay: 0.8, amplitude: 16 },
-                    { Icon: SiShadcnui, duration: 3, delay: 1, amplitude: 14 },
+                    { Icon: SiSpring, duration: 3, delay: 1, amplitude: 14 },
                     { Icon: SiLaravel, duration: 3.2, delay: 1.2, amplitude: 17 },
                     { Icon: SiMysql, duration: 3.4, delay: 1.4, amplitude: 13 }
                 ].map(({ Icon, duration, delay, amplitude }, index) => (

@@ -7,7 +7,7 @@ const MenuItem = ({ menu, index }) => {
         <>
             <a href={menu.uri} className='w-10 h-10 rounded-full flex items-center justify-center group cursor-pointer hover:bg-gradient-to-br 
             hover:from-blue-100 hover:via-blue-300 hover:to-blue-500 relative'
-            onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}
+            onMouseEnter={()=>setIsHover(true)} aria-description='' onMouseLeave={()=>setIsHover(false)}
             >
                 <menu.Icon className={`text-[#a7a7a7] group-hover:text-[#020010] text-xl`} />
                <AnimatePresence>

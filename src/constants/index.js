@@ -1,6 +1,6 @@
+import project3 from '../assets/projects/barber.png';
 import project1 from '../assets/projects/healtcare.png';
 import project2 from '../assets/projects/spark.jpeg';
-import project3 from '../assets/projects/barber.png';
 
 import { FaDiagramProject, FaEnvelope, FaHouse, FaRenren, FaUser } from 'react-icons/fa6';
 
@@ -9,6 +9,12 @@ export const HERO_CONTENT = `Fueled by passion and determination, Yassir has gro
 export const ABOUT_TEXT = `I'm Yassir, a full-stack developer who finds joy in turning ideas into clean, functional code. What started with simple lines of HTML and CSS quickly grew into a real passion for building web applications using technologies like React, Next.js, Laravel, and Spring Boot. I thrive in the flow of coding—solving problems, architecting systems, and creating seamless user experiences. Whether it's front-end polish or back-end logic, I love every step of the process. I'm always exploring new tools, leveling up my skills, and staying curious. For me, coding isn't just a job—it's a vibe, and I'm here to build, learn, and grow with every line.`;
 
 export const EXPERIENCES = [
+  {
+    year: 'October 2025 - Present',
+    role: 'Trainer',
+    company: 'Ciel Institute',
+    description: 'IT and programming trainer.',
+  },
   {
     year: 'August - October 2024',
     role: 'Web Developer',

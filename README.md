@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing my journey as a full-stack developer. Built with clean architecture, optimized performance, and smooth animations to create an engaging user experience.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-🌐%20Visit%20Site-blue?style=for-the-badge)](https://derkaoui.netlify.app/)
-[![GitHub Stars](https://img.shields.io/github/stars/Derkaoui05/portfolio?style=for-the-badge)](https://github.com/Derkaoui05/portfolio)
+[![GitHub Stars](https://img.shields.io/github/stars/Derkaoui05/portfolio?style=for-the-badge)](https://github.com/Derkaoui05/project1)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 ## 🚀 Features
@@ -81,22 +81,18 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Derkaoui05/portfolio.git
+   git clone https://github.com/Derkaoui05/project1.git
    cd portfolio
    ```
 
 2. **Install dependencies**
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. **Start development server**
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
 4. **Open in browser**

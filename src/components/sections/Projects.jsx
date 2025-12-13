@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { PROJECTS } from '../constants';
+import { PROJECTS } from '../../data/projects';
+import OptimizedImage from '../common/OptimizedImage';
 const Projects = () => {
   return (
     <>
@@ -25,10 +26,11 @@ const Projects = () => {
               >
                 {/* Project Image */}
                 <div className="w-full lg:w-1/3 flex-shrink-0">
-                  <img
+                  <OptimizedImage
                     src={project.image}
                     alt={project.title}
                     className="w-full h-48 lg:h-64 object-cover rounded-lg border border-neutral-800 hover:border-[#0B598D] transition-colors duration-300"
+                    containerClassName="w-full h-48 lg:h-64"
                   />
                 </div>
 

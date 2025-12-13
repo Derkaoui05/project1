@@ -1,5 +1,5 @@
 import React from 'react'
-import { CONTACT } from '../constants'
+import { CONTACT } from '../../data/personal';
 import { motion } from 'framer-motion'
 import logo from '../assets/logo.png'
 const Contact = () => {

@@ -7,7 +7,7 @@ import {
   AnimatedMenuItem,
   AnimatedMenuList,
   useAnimatedMenuContext,
-} from './systaliko-ui/blocks/animated-menu';
+} from '../systaliko-ui/blocks/animated-menu';
 
 const menuItems = [
   {

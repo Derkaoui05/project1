@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import profile from '../assets/profile.png';
-import { HERO_CONTENT } from '../constants';
+import profile from '../../assets/profile.png';
+import { HERO_CONTENT } from '../../data/personal';
+import OptimizedImage from '../common/OptimizedImage';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -47,14 +48,17 @@ const Hero = () => {
           </div>
           <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex justify-center relative">
-              <motion.img
+              <motion.div
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1 }}
-                src={profile}
-                alt="profile-picture"
-                className="rounded-2xl  object-cover aspect-square"
-              />
+              >
+                <OptimizedImage
+                  src={profile}
+                  alt="profile-picture"
+                  className="rounded-2xl object-cover aspect-square"
+                />
+              </motion.div>
               <motion.div
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}

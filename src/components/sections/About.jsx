@@ -1,7 +1,8 @@
 import React from 'react'
-import about from '../assets/dev.jpg'
-import { ABOUT_TEXT } from '../constants'
+import about from '../../assets/dev.jpg'
+import { ABOUT_TEXT } from '../../data/personal'
 import { motion } from 'framer-motion'
+import OptimizedImage from '../common/OptimizedImage'
 
 const About = () => {
     return (
@@ -19,7 +20,11 @@ const About = () => {
                     transition={{duration:1}}
                     className="w-full lg:w-1/2 lg:p-8">
                         <div className="flex items-center justify-center">
-                            <img src={about} alt="aboutImg" className='rounded-2xl' />
+                            <OptimizedImage 
+                              src={about} 
+                              alt="aboutImg" 
+                              className='rounded-2xl' 
+                            />
                         </div>
                     </motion.div>
                     <motion.div

@@ -29,7 +29,7 @@ const Projects = () => {
                   <OptimizedImage
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-48 lg:h-64 object-cover rounded-lg border border-neutral-800 hover:border-[#0B598D] transition-colors duration-300"
+                    className="w-full h-48 lg:h-64 object-cover rounded-lg border border-neutral-800 hover:border-[#0B598D] transition-colors duration-500"
                     containerClassName="w-full h-48 lg:h-64"
                   />
                 </div>
@@ -37,7 +37,9 @@ const Projects = () => {
                 {/* Project Content */}
                 <div className="w-full lg:w-2/3">
                   <h6 className="mb-2 font-semibold text-lg">{project.title}</h6>
-                  <p className="mb-4 text-neutral-400 leading-relaxed max-w-2xl text-justify">{project.description}</p>
+                  <p className="mb-4 text-neutral-400 leading-relaxed max-w-2xl text-justify">
+                    {project.description}
+                  </p>
                   <div className="mb-4">
                     {project.technologies.map((tech, index) => (
                       <span

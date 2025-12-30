@@ -1,7 +1,7 @@
 import project3 from '../assets/projects/barber.png';
+import project4 from '../assets/projects/employee.png';
 import project1 from '../assets/projects/healtcare.png';
 import project2 from '../assets/projects/spark.jpeg';
-import project4 from '../assets/projects/employee.png'
 
 export const PROJECTS = [
   {

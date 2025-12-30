@@ -1,8 +1,18 @@
 import project3 from '../assets/projects/barber.png';
 import project1 from '../assets/projects/healtcare.png';
 import project2 from '../assets/projects/spark.jpeg';
+import project4 from '../assets/projects/employee.png'
 
 export const PROJECTS = [
+  {
+    title: 'Employee & Suplier Management',
+    image: project4,
+    url: '#',
+    description:
+      "It's a comprehensive desktop application for managing employees, suppliers, invoices, and financial transactions. The system provides a complete solution for small to medium businesses to track employee data, manage supplier relationships, handle invoice processing, and generate detailed reports.",
+    technologies: ['.NET MVVM', 'Avalonia UI'],
+    status: 'complete',
+  },
   {
     title: 'AI-powered meal planning - pure plate',
     image: project1,

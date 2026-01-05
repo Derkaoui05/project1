@@ -57,7 +57,7 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-				<div className="py-6 text-sm text-center font-serif dark:text-gray-600">© 2022 Muller Co. All rights reserved.</div>
+				<div className="py-6 text-sm text-center font-serif dark:text-gray-600">© 2022 Derkaoui Yassir Co. All rights reserved.</div>
 			</footer>
 		</>
 	)

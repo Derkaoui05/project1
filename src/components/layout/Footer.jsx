@@ -37,7 +37,7 @@ const Footer = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 1 }}
-                            href="https://www.instagram.com/d.ysr777"
+                            href="https://www.instagram.com/thusspokeyassir"
                             className="box font-medium text-white  flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
                             <RiInstagramFill className=" text-white text-3xl hover:scale-125 cursor-pointer" />

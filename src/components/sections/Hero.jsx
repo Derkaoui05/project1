@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import React from 'react';
 import profile from '../../assets/profile.png';
 import { HERO_CONTENT } from '../../data/personal';
 import OptimizedImage from '../common/OptimizedImage';
@@ -34,7 +33,7 @@ const Hero = () => {
                 animate="visible"
                 className="bg-gradient-to-r text-transparent from-[#0B598D] to-[#1593E6] bg-clip-text text-4xl tracking-tight"
               >
-                Full Stack Developer
+                Full Stack Developer & IT Trainer
               </motion.span>
               <motion.p
                 variants={container(1)}

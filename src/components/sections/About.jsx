@@ -22,8 +22,13 @@ const About = () => {
             transition={{ duration: 1 }}
             className="w-full lg:w-1/2 lg:p-8"
           >
-            <div className="flex items-center justify-center">
-              <OptimizedImage src={about} alt="aboutImg" className="rounded-2xl object-cover" />
+            <div className="relative flex items-center justify-center">
+              <OptimizedImage
+                src={about}
+                alt="aboutImg"
+                className="rounded-2xl object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent rounded-b-2xl"></div>
             </div>
           </motion.div>
           <motion.div

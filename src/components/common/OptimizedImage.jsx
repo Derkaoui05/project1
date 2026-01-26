@@ -38,7 +38,7 @@ const OptimizedImage = ({
           src={src}
           alt={alt}
           loading="lazy"
-          className={`transition-opacity duration-300 ${
+          className={`transition-opacity duration-300${
             isLoading ? 'opacity-0' : 'opacity-100'
           } ${className}`}
           onLoad={handleLoad}

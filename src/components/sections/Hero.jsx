@@ -57,6 +57,7 @@ const Hero = () => {
                   alt="profile-picture"
                   className="rounded-2xl object-cover aspect-square"
                 />
+                 <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent rounded-b-2xl"></div>
               </motion.div>
               <motion.div
                 initial={{ x: 100, opacity: 0 }}

@@ -1,7 +1,7 @@
 export const EXPERIENCES = [
   {
     year: 'October 2025 - Present',
-    role: 'Trainer',
+    role: 'Technician & Trainer',
     company: 'Ciel Institute',
     description: 'Technician and IT trainer.',
   },
@@ -10,7 +10,7 @@ export const EXPERIENCES = [
     role: 'Web Developer',
     company: 'Maya Digital',
     description: 'Develop and maintain a responsive sections of shelter project.',
-    technologies: ['React', 'TailwindCSS', 'React-table', 'axios'],
+    technologies: ['React', 'TailwindCSS', 'Tanstack/React-table', 'axios'],
   },
   {
     year: 'MAY 2024 ',

@@ -3,7 +3,7 @@ export const EXPERIENCES = [
     year: 'October 2025 - Present',
     role: 'Trainer',
     company: 'Ciel Institute',
-    description: 'IT and programming trainer.',
+    description: 'Technician and IT trainer.',
   },
   {
     year: 'August - October 2024',

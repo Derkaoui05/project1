@@ -49,7 +49,7 @@ const Footer = () => {
                         initial={{ opacity: 0, x: 100 }}
                         transition={{ duration: 1 }}
                         className="sm:text-[12px] text-3xl">
-                        | Developed By <span className='text-[#1593E6]  duration-500 hover:border-b hover:border-[#1593E6] hover:cursor-pointer transition-colors'> Derkaoui Yassir </span>
+                        | Developed By <span className='text-[#1593E6]  duration-700 hover:border-b hover:border-[#1593E6] hover:pb-1 hover:cursor-pointer transition-colors'> Derkaoui Yassir </span>
                         <a href="#"></a> |
                     </motion.div>
                 </div>

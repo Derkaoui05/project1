@@ -20,7 +20,7 @@ const Footer = () => {
                             href="https://www.linkedin.com/in/derkaoui-yassir/"
                             className="box font-medium text-white flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
-                            <FaLinkedin className=" text-white text-3xl hover:scale-125 cursor-pointer" />
+                            <FaLinkedin className=" text-white text-3xl cursor-pointer" />
                             <p>Linkedin</p>
                         </motion.a>
                         <motion.a
@@ -30,7 +30,7 @@ const Footer = () => {
                             href="https://github.com/Derkaoui05"
                             className="box font-medium text-white  flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
-                            <IoLogoGithub className=" text-white text-3xl hover:scale-125 cursor-pointer" />
+                            <IoLogoGithub className=" text-white text-3xl cursor-pointer" />
                             <p>Github</p>
                         </motion.a>
                         <motion.a
@@ -40,18 +40,17 @@ const Footer = () => {
                             href="https://www.instagram.com/thusspokeyassir"
                             className="box font-medium text-white  flex items-center justify-center gap-3 flex-col md:flex-row"
                         >
-                            <RiInstagramFill className=" text-white text-3xl hover:scale-125 cursor-pointer" />
+                            <RiInstagramFill className=" text-white text-3xl cursor-pointer" />
                             <p>Instagram</p>
                         </motion.a>
                     </div>
-                    <motion.div
+                    {/* <motion.div
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: 100 }}
                         transition={{ duration: 1 }}
                         className="sm:text-[12px] text-3xl">
-                        | Developed By <span className='text-[#1593E6]  duration-700 hover:border-b hover:border-[#1593E6] hover:pb-1 hover:cursor-pointer transition-colors'> Derkaoui Yassir </span>
-                        <a href="#"></a> |
-                    </motion.div>
+                        | Developed By <span className='text-[#1593E6]  duration-700 hover:border-b hover:border-[#1593E6] hover:pb-1 hover:cursor-pointer transition-colors'> Derkaoui Yassir </span>|
+                    </motion.div> */}
                 </div>
             </div>
         </>

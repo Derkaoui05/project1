@@ -5,6 +5,15 @@ import project2 from '../assets/projects/spark.jpeg';
 
 export const PROJECTS = [
   {
+    title: 'Be-in security',
+    image: project4,
+    url: '#',
+    description:
+      "It's a comprehensive desktop application for managing employees, suppliers, invoices, and financial transactions. The system provides a complete solution for small to medium businesses to track employee data, manage supplier relationships, handle invoice processing, and generate detailed reports.",
+    technologies: ['.NET MVVM', 'Avalonia UI'],
+    status: 'complete',
+  },
+  {
     title: 'Employee & Suplier Management',
     image: project4,
     url: '#',

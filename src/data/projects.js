@@ -10,7 +10,7 @@ export const PROJECTS = [
     url: '#',
     description:
       "It's a comprehensive desktop application for managing employees, suppliers, invoices, and financial transactions. The system provides a complete solution for small to medium businesses to track employee data, manage supplier relationships, handle invoice processing, and generate detailed reports.",
-    technologies: ['.NET MVVM', 'Avalonia UI'],
+    technologies: ['React.js', 'Avalonia UI'],
     status: 'complete',
   },
   {

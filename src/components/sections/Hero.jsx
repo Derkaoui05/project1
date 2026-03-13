@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import profile from '../../assets/profile.png';
 import { HERO_CONTENT } from '../../data/personal';
 import OptimizedImage from '../common/OptimizedImage';
+import SEO from '../common/SEO';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -15,6 +16,7 @@ const container = (delay) => ({
 const Hero = () => {
   return (
     <>
+      <SEO />
       <section id="home" className="border-b border-neutral-900 pb-4 lg:mb-36">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2">

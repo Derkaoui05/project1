@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { PROJECTS } from '../../data/projects';
 import OptimizedImage from '../common/OptimizedImage';
@@ -28,7 +27,7 @@ const Projects = () => {
                 <div className="w-full lg:w-1/3 flex-shrink-0">
                   <OptimizedImage
                     src={project.image}
-                    alt={project.title}
+                    alt={`Preview of ${project.title} project`}
                     className="w-full h-48 lg:h-64 object-cover rounded-lg border border-neutral-800 hover:border-[#0B598D] transition-colors duration-500"
                     containerClassName="w-full h-48 lg:h-64"
                   />
@@ -36,7 +35,7 @@ const Projects = () => {
 
                 {/* Project Content */}
                 <div className="w-full lg:w-2/3">
-                  <h6 className="mb-2 font-semibold text-lg">{project.title}</h6>
+                  <h3 className="mb-2 font-semibold text-lg">{project.title}</h3>
                   <p className="mb-4 text-neutral-400 leading-relaxed max-w-2xl text-justify">
                     {project.description}
                   </p>

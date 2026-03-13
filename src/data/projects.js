@@ -10,7 +10,7 @@ export const PROJECTS = [
     image: project5,
     url: 'https://be-in-security.vercel.app/',
     description:
-      "",
+      "Be In Security est devenue la référence incontournable pour la protection des biens et des personnes. Nous sélectionnons rigoureusement nos agents et déployons des technologies de pointe pour garantir une sécurité totale.",
     technologies: ['React.js', 'TailwindCSS', 'Typescript'],
     status: 'complete',
   },

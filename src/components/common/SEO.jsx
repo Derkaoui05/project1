@@ -5,9 +5,9 @@ const SEO = ({ title, description, keywords, image, url }) => {
   const fullTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const siteDescription = description || "Portfolio of Derkaoui Yassir, a passionate Full Stack Developer and IT Trainer specializing in React, Next.js, Laravel, and Spring Boot.";
   const siteKeywords = keywords || "Derkaoui Yassir, Full Stack Developer, IT Trainer, React, Next.js, Laravel, Spring Boot";
-  const siteUrl = "https://yourportfolio.com/";
+  const siteUrl = "https://derkaoui.netlify.app/";
   const fullUrl = url ? `${siteUrl}${url}` : siteUrl;
-  const siteImage = image || "https://yourportfolio.com/og-image.png";
+  const siteImage = image || "https://derkaoui.netlify.app/og-image.png";
 
   return (
     <Helmet>

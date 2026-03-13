@@ -2,14 +2,15 @@ import project3 from '../assets/projects/barber.png';
 import project4 from '../assets/projects/employee.png';
 import project1 from '../assets/projects/healtcare.png';
 import project2 from '../assets/projects/spark.jpeg';
+import project5 from '../assets/projects/be-in-security.png';
 
 export const PROJECTS = [
   {
     title: 'Be-in security',
-    image: project4,
-    url: '#',
+    image: project5,
+    url: 'https://be-in-security.vercel.app/',
     description:
-      "It's a comprehensive desktop application for managing employees, suppliers, invoices, and financial transactions. The system provides a complete solution for small to medium businesses to track employee data, manage supplier relationships, handle invoice processing, and generate detailed reports.",
+      "",
     technologies: ['React.js', 'TailwindCSS', 'Typescript'],
     status: 'complete',
   },

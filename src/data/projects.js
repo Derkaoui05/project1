@@ -1,10 +1,20 @@
 import project3 from '../assets/projects/barber.png';
+import project5 from '../assets/projects/be-in-security.png';
+import project6 from '../assets/projects/ciel.png';
 import project4 from '../assets/projects/employee.png';
 import project1 from '../assets/projects/healtcare.png';
 import project2 from '../assets/projects/spark.jpeg';
-import project5 from '../assets/projects/be-in-security.png';
 
 export const PROJECTS = [
+  {
+    title: 'Institut Ciel',
+    image: project6,
+    url: 'https:// institut-ciel.com/',
+    description:
+      "L'institut CIEL propose un ensemble de formations continues pour les travailleurs, les étudiants et les personnes intéressées par l'informatique, logistique, et le management...",
+    technologies: ['WordPress', 'Elementor', 'PHP'],
+    status: 'complete',
+  },
   {
     title: 'Be-in security',
     image: project5,

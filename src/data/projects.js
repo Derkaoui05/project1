@@ -9,7 +9,7 @@ export const PROJECTS = [
   {
     title: 'Institut Ciel',
     image: project6,
-    url: 'https:// institut-ciel.com/',
+    url: 'https://institut-ciel.com/',
     description:
       "L'institut CIEL propose un ensemble de formations continues pour les travailleurs, les étudiants et les personnes intéressées par l'informatique, logistique, et le management...",
     technologies: ['WordPress', 'Elementor', 'PHP'],

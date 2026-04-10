@@ -11,7 +11,7 @@ export const PROJECTS = [
     image: project6,
     url: 'https://institut-ciel.com/',
     description:
-      "L'institut CIEL propose un ensemble de formations continues pour les travailleurs, les étudiants et les personnes intéressées par l'informatique, logistique, et le management...",
+      "The CIEL Institute offers a range of continuing education courses for workers, students, and anyone interested in computer science, logistics, and management...",
     technologies: ['WordPress', 'Elementor', 'PHP'],
     status: 'complete',
   },
@@ -20,7 +20,7 @@ export const PROJECTS = [
     image: project5,
     url: 'https://be-in-security.vercel.app/',
     description:
-      "Be In Security est devenue la référence incontournable pour la protection des biens et des personnes. Nous sélectionnons rigoureusement nos agents et déployons des technologies de pointe pour garantir une sécurité totale.",
+      "Be In Security has become the leading provider of security services for people and property. We carefully select our agents and deploy state-of-the-art technology to ensure complete security.",
     technologies: ['React.js', 'TailwindCSS', 'Typescript'],
     status: 'complete',
   },

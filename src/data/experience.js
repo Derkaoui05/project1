@@ -19,10 +19,4 @@ export const EXPERIENCES = [
     description: `Develop and maintain responsive e-commerce website using WorPress, HTML, CSS, JavaScript, and PHP.`,
     technologies: ['HTML', 'CSS', 'JavaScript', 'WordPress', 'PHP'],
   },
-  {
-    year: '2022 - 2023',
-    role: 'Artificial Intelligence',
-    company: 'Ifiag And M-bway',
-    description: `Cerificate of appreciation proudly presented to me for successful completion of the Masterclass on Artificial Intelligence`,
-  },
 ];

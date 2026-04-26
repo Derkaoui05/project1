@@ -4,6 +4,8 @@ import About from './components/sections/About';
 import Education from './components/sections/Education';
 import Experience from './components/sections/Experience';
 import Hero from './components/sections/Hero';
+import Pricing from './components/sections/Packages';
+import WorkProcess from './components/sections/Process';
 import Projects from './components/sections/Projects';
 import Skills from './components/sections/Skills';
 import { Glass } from './components/ui/glass';
@@ -24,6 +26,8 @@ const App = () => {
           <Experience />
           <Education />
           <Projects />
+          <Pricing />
+          <WorkProcess />
           <Footer />
         </div>
       </div>

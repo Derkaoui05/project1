@@ -1,3 +1,5 @@
+import { LayoutGroup, useInView } from 'framer-motion';
+import { useRef } from 'react';
 import { AnimatedMenuDemo } from './components/layout/AnimatedMenuDemo';
 import Footer from './components/layout/Footer';
 import About from './components/sections/About';
@@ -11,8 +13,11 @@ import Skills from './components/sections/Skills';
 import { Glass } from './components/ui/glass';
 
 const App = () => {
+  const aboutRef = useRef(null);
+  const isAboutInView = useInView(aboutRef, { margin: "-30% 0px -30% 0px" });
+
   return (
-    <>
+    <LayoutGroup>
       <div className="overflow-x-hidden text-neutral-300 antialiased font-mona-sans relative">
           <div className="fixed top-0 -z-10 h-full w-full">
             <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
@@ -20,8 +25,10 @@ const App = () => {
         <AnimatedMenuDemo />
         <div className="container mx-auto px-8 pt-36">
           <Glass borderRadius={60} blur={1} followMouse ripple  />
-          <Hero />
-          <About />
+          <Hero isImageHere={!isAboutInView} />
+          <div ref={aboutRef}>
+            <About isImageHere={isAboutInView} />
+          </div>
           <Skills />
           <Experience />
           <Education />
@@ -31,7 +38,7 @@ const App = () => {
           <Footer />
         </div>
       </div>
-    </>
+    </LayoutGroup>
   );
 };
 

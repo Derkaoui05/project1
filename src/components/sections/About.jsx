@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import about from '../../assets/about1.jpg';
+import profile from '../../assets/profile.png';
 import { ABOUT_TEXT } from '../../data/personal';
 import OptimizedImage from '../common/OptimizedImage';
 
-const About = () => {
+const About = ({ isImageHere = false }) => {
   return (
     <>
       <section id="about" className="border-b border-neutral-900 pb-4">
@@ -22,13 +22,22 @@ const About = () => {
             transition={{ duration: 1 }}
             className="w-full lg:w-1/2 lg:p-8"
           >
-            <div className="relative flex items-center justify-center">
-              <OptimizedImage
-                src={about}
-                alt="aboutImg"
-                className="rounded-2xl object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent rounded-b-2xl"></div>
+            <div className="relative flex items-center justify-center w-full max-w-[400px] mx-auto aspect-square">
+              {isImageHere && (
+                <motion.div
+                  layoutId="profile-image"
+                  transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+                  className="absolute inset-0 z-10 w-full h-full"
+                >
+                  <OptimizedImage
+                    src={profile}
+                    alt="profile-picture"
+                    className="rounded-2xl object-cover w-full h-full"
+                    containerClassName="w-full h-full"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent rounded-b-2xl pointer-events-none"></div>
+                </motion.div>
+              )}
             </div>
           </motion.div>
           <motion.div

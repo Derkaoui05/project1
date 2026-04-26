@@ -13,7 +13,7 @@ const container = (delay) => ({
   },
 });
 
-const Hero = () => {
+const Hero = ({ isImageHere = true }) => {
   return (
     <>
       <SEO />
@@ -48,25 +48,22 @@ const Hero = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 lg:p-8">
-            <div className="flex justify-center relative">
-              <motion.div
-                initial={{ x: 100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1, delay: 1 }}
-              >
-                <OptimizedImage
-                  src={profile}
-                  alt="profile-picture"
-                  className="rounded-2xl object-cover aspect-square"
-                />
-                 <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent rounded-b-2xl"></div>
-              </motion.div>
-              <motion.div
-                initial={{ x: 100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1, delay: 1 }}
-                className="absolute inset-0 bg-black/30"
-              ></motion.div>
+            <div className="flex justify-center relative w-full max-w-[500px] mx-auto aspect-square">
+              {isImageHere && (
+                <motion.div
+                  layoutId="profile-image"
+                  transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+                  className="absolute inset-0 z-10 w-full h-full"
+                >
+                  <OptimizedImage
+                    src={profile}
+                    alt="profile-picture"
+                    className="rounded-2xl object-cover w-full h-full"
+                    containerClassName="w-full h-full"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent rounded-b-2xl pointer-events-none"></div>
+                </motion.div>
+              )}
             </div>
           </div>
         </div>

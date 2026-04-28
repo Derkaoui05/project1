@@ -11,7 +11,7 @@ const Footer = () => {
                     <motion.h2 whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: -100 }}
                         transition={{ duration: .5 }}
-                        className=' text-center text-4xl text-neutral-500'>Let's Talk</motion.h2>
+                        className=' text-center text-4xl text-neutral-500'>Let's Connect</motion.h2>
                     <div className=" flex items-center justify-center gap-8 sm:gap-5">
                         <motion.a
                             whileInView={{ opacity: 1, x: 0 }}

@@ -11,6 +11,7 @@ import WorkProcess from './components/sections/Process';
 import Projects from './components/sections/Projects';
 import Skills from './components/sections/Skills';
 import { Glass } from './components/ui/glass';
+import ContactForm from './components/ui/ContactForm';
 
 const App = () => {
   const aboutRef = useRef(null);
@@ -24,7 +25,7 @@ const App = () => {
           </div>
         <AnimatedMenuDemo />
         <div className="container mx-auto px-8 pt-36">
-          <Glass borderRadius={60} blur={1} followMouse ripple  />
+          {/* <Glass borderRadius={60} blur={1} followMouse ripple  /> */}
           <Hero isImageHere={!isAboutInView} />
           <div ref={aboutRef}>
             <About isImageHere={isAboutInView} />
@@ -35,6 +36,7 @@ const App = () => {
           <Projects />
           <Pricing />
           <WorkProcess />
+          <ContactForm />
           <Footer />
         </div>
       </div>

@@ -10,7 +10,6 @@ import Pricing from './components/sections/Packages';
 import WorkProcess from './components/sections/Process';
 import Projects from './components/sections/Projects';
 import Skills from './components/sections/Skills';
-import { Glass } from './components/ui/glass';
 import ContactForm from './components/ui/ContactForm';
 
 const App = () => {

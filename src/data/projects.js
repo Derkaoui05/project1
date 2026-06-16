@@ -25,7 +25,7 @@ export const PROJECTS = [
     status: 'complete',
   },
   {
-    title: 'Employee & Suplier Management',
+    title: 'Employee & Supplier & Customer & Credits Management',
     image: project4,
     url: '#',
     description:
@@ -61,7 +61,7 @@ export const PROJECTS = [
     status: 'complete',
   },
   {
-    title: 'Barber SHop',
+    title: 'Barber Shop',
     image: project3,
     url: 'https://sharplook.vercel.app',
     description:

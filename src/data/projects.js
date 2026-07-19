@@ -4,8 +4,18 @@ import project6 from '../assets/projects/ciel.png';
 import project4 from '../assets/projects/employee.png';
 import project1 from '../assets/projects/healtcare.png';
 import project2 from '../assets/projects/spark.jpeg';
+import project7 from '../assets/projects/vitalia.png';
 
 export const PROJECTS = [
+  {
+    title: 'Vitalia',
+    image: project7,
+    url: 'https://vitalia-dentist.vercel.app/',
+    description:
+      "Vitalia is a dental clinic that provides a wide range of services to help you maintain your dental health and well-being.",
+    technologies: ['Next.js', 'TailwindCSS', 'Typescript', 'Shadcn UI'],
+    status: 'progress',
+  },
   {
     title: 'Institut Ciel',
     image: project6,

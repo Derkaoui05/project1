@@ -14,7 +14,7 @@ export const PROJECTS = [
     description:
       "Vitalia is a dental clinic that provides a wide range of services to help you maintain your dental health and well-being.",
     technologies: ['Next.js', 'TailwindCSS', 'Typescript', 'Shadcn UI'],
-    status: 'progress',
+    status: 'complete',
   },
   {
     title: 'Institut Ciel',

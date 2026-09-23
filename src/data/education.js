@@ -7,7 +7,7 @@ export const EDUCATION = [
   },
   {
     year: '2022-2024',
-    speciality: 'Information Technologie',
+    speciality: 'Information Technology',
     diploma: 'Diploma of specialize technician',
     school: 'IFIAG Casablanca',
   },
